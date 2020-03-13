@@ -22,7 +22,7 @@ import re
 
 from django.contrib.gis.db import models
 from django.db.models.fields.related import ManyToManyField
-from django.utils.six import StringIO, text_type, PY3
+from six import StringIO, text_type, PY3
 
 from multigtfs.compat import (
     get_blank_value, write_text_rows, Manager, QuerySet)

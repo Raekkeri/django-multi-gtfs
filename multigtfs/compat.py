@@ -7,7 +7,7 @@ from distutils.version import LooseVersion
 from zipfile import ZipFile, ZIP_DEFLATED
 
 from django import get_version
-from django.utils.six import PY3, binary_type, text_type
+from six import PY3, binary_type, text_type
 
 DJ_VERSION = LooseVersion(get_version())
 
